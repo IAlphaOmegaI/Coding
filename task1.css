@@ -1,0 +1,16 @@
+body{
+    background-image: url();
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.klasa1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 500;
+    background-color: aqua;
+}
+div{
+    background-color: aqua;
+    height: 900;
+    width: max-content;
+}
