@@ -601,48 +601,23 @@ line-height: 64px;
 }
 #formbtn{
     position: absolute;
-    bottom: 10px;
-left: 490px;
-    margin-top: 20px;
+    bottom: 20px;
+    left: 490px;
     width: 63px;
     height: 28px;
     
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 32px;
     line-height: 28px;
-    /* identical to box height, or 140% */
-    
-    
+    text-align: center;
+
     color: #FFFFFF;
-    
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    Width
-    236px
-    Height
-    56px
-    Top
-    240px
-    Radius
-    15px
-    Padding
-    18px, 128px, 18px, 128px
-    Gap
-    10px
-    #007560
-    /* Frame 1519 */
-    
-    
-    /* Auto layout */
     
     display: flex;
     flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 18px 128px;
@@ -654,4 +629,45 @@ left: 490px;
     background: #007560;
     border-radius: 15px;
     
+}
+#bottom{
+    position: relative;
+    top: 1000px;
+    width: 1230px;
+    height: 300px;
+    margin-top: 150px;
+}
+#bottom img{
+    
+    width: 1230px;
+    height: 400px;
+
+}
+.materialicons1{
+    position: absolute;
+    top: 2000px;
+}
+.terms{
+    position: absolute;
+    top: 4910px;
+    margin-left: 550px;
+    width: 250px;
+height: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
 }
