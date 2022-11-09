@@ -519,7 +519,10 @@ background: #FFFFFF;
 border: 4px solid #F3EBC4;
 border-radius: 276px;
 }
-#rectangleform form{
+.form1{
+    position: absolute;
+    bottom: 210px;
+left: 490px;
 box-sizing: border-box;
 
 /* Auto layout */
@@ -542,4 +545,113 @@ border-radius: 15px;
 flex: none;
 order: 0;
 flex-grow: 0;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+}
+.form2{
+    position: absolute;
+    bottom: 90px;
+left: 490px;
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 24px;
+gap: 10px;
+
+width: 496px;
+height: 56px;
+
+background: #FFFFFF;
+border: 1px solid #DCDCDC;
+border-radius: 15px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+
+
+
+}
+#h1form{
+    position: absolute;
+    bottom: 310px;
+left: 490px;
+    width: 442px;
+height: 64px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 56px;
+line-height: 64px;
+}
+#formbtn{
+    position: absolute;
+    bottom: 10px;
+left: 490px;
+    margin-top: 20px;
+    width: 63px;
+    height: 28px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    Width
+    236px
+    Height
+    56px
+    Top
+    240px
+    Radius
+    15px
+    Padding
+    18px, 128px, 18px, 128px
+    Gap
+    10px
+    #007560
+    /* Frame 1519 */
+    
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 128px;
+    gap: 10px;
+    
+    width: 236px;
+    height: 56px;
+    
+    background: #007560;
+    border-radius: 15px;
+    
 }
