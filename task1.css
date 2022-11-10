@@ -1,29 +1,21 @@
+
 #Header1{
     position: relative;
 width: 88px;
 height: 38px;
 left: 120px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 38px;
-/* identical to box height */
-
-
-
 color: #000000;
-
-
 }
 #img{
 position: absolute;
 left: 100px;
 top: 18px;
-
 background: #FFFFFF;
-
 }
 .btn {position: absolute;
 height: 40px;
@@ -31,7 +23,6 @@ width: 40px;
 top: 12px;
 right: 120px;
 font-size: large;
-
 background-color: white;
 border: none; 
 color: black;
@@ -42,24 +33,24 @@ width: 554px;
 height: 128px;
 left: 380px;
 top: 70px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
 font-size: 56px;
 line-height: 64px;
-/* or 114% */
-
 text-align: center;
-
 color: #000000;
 }
 #rectangle{
 margin-top: 10px;
 height: 800px;
 width: 1250px;
-background-image: url(https://static.vecteezy.com/system/resources/previews/005/007/244/original/muddy-brown-paws-texture-background-free-vector.jpg);
 }
+#rectangle img{
+    margin-top: 10px;
+    height: 800px;
+    width: 1250px;}
+
 #mainimage{
 position: absolute;
 top: 400px;
@@ -92,7 +83,6 @@ height: 100px;
 background: #FFFFFF;
 border: 1px solid #DCDCDC;
 border-radius: 10px;
-
 left: 20px;
 top: 250px;}
 .comment p{
@@ -103,7 +93,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 20px;
 color: #000000;
-
 left: 75px;
 top: 30px;}
 .comment h4{
@@ -112,17 +101,12 @@ width: 76px;
 height: 20px;
 left: 75px;
 top: 1px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 20px;
-
-
 color: #000000;
-
-
 }
 .comment #img1{
 position: absolute;
@@ -146,10 +130,8 @@ height: 100px;
 background: #FFFFFF;
 border: 1px solid #DCDCDC;
 border-radius: 10px;
-
 left: 890px;
 top: 70px;
-
 }
 .comment3{
 position: absolute;
@@ -158,15 +140,12 @@ height: 100px;
 background: #FFFFFF;
 border: 1px solid #DCDCDC;
 border-radius: 10px;
-
 left: 840px;
 top: 300px;
-
 }
 #buttonpet{
 width: 80px;
 height: 30px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -181,13 +160,11 @@ flex-direction: row;
 align-items: flex-start;
 padding: 17px 52px;
 gap: 10px;
-
 position: absolute;
 width: 200px;
 height: 64px;
 left: 530px;
 top: 450px;
-
 background: #007560;
 border-radius: 15px;
 }
@@ -208,7 +185,6 @@ width: 240px;
 height: 86px;
 border: 5px solid rgba(0, 117, 96, 0.1);
 border-radius: 20px;
-
 }
 #imgcat{
 position: relative;
@@ -223,7 +199,6 @@ top: 680px;
 left: 730px;
 width: 500px;
 height: 128px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
@@ -233,8 +208,6 @@ color: #000000;
 flex: none;
 order: 0;
 flex-grow: 0;
-
-
 }
 #pcat{
 position: absolute;
@@ -258,7 +231,6 @@ top: 1130px;
 left: 735px;
 width: 150px;
 height: 30px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -270,10 +242,8 @@ justify-content: center;
 align-items: center;
 padding: 17px 52px;
 gap: 10px;
-
 width: 200px;
 height: 64px;
-
 background: #FFFFFF;
 border: 1px solid #007560;
 border-radius: 15px;
@@ -294,7 +264,6 @@ left: 60px;
 top: 1400px;
 width: 500px;
 height: 128px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
@@ -304,8 +273,6 @@ color: #000000;
 flex: none;
 order: 0;
 flex-grow: 0;
-
-
 }
 #pdog{
 position: absolute;
@@ -322,7 +289,6 @@ color: #383838;
 flex: none;
 order: 1;
 flex-grow: 0;
-
 }
 #h11dog{
 position: absolute;
@@ -330,7 +296,6 @@ left: 60px;
 top: 1770px;
 width: 252px;
 height: 34px;
-
 font-family: 'Lato';
 font-style: normal;
 font-weight: 700;
@@ -370,7 +335,6 @@ position: relative;
 left: 60px;
 width: 150px;
 height: 30px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -382,39 +346,27 @@ justify-content: center;
 align-items: center;
 padding: 17px 52px;
 gap: 10px;
-
 width: 200px;
 height: 64px;
-
 background: #FFFFFF;
 border: 1px solid #007560;
 border-radius: 15px;
-
-/* Inside auto layout */
-
 flex: none;
 order: 2;
 flex-grow: 0;
-
 }
-
 #divgallery{
 position: relative;
-background-color: rgba(225, 203, 149, 0.792);
 height: 880px;
 width: 1230px;
 margin-top: 150px;
-
 }
-
-
 #divgallery h1{
 position: relative;
 width: 463px;
 height: 68px;
 left: 100px;
 top: 100px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
@@ -427,7 +379,6 @@ width: 560px;
 height: 56px;
 left: 100px;
 top: 80px;
-
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
@@ -435,6 +386,13 @@ font-size: 20px;
 line-height: 28px;
 color: #383838;
 }
+#l111{
+    position: absolute;
+    top: 2120px;
+    left: 0px;
+    height: 880px;
+    width: 1230px;
+    }
 #divgallery .petgal{
 position: relative;
 margin-left: 20px;
@@ -472,7 +430,6 @@ top: 3670px;
 margin-left: 130px;
 width: 51px;
 height: 34px;
-
 font-family: 'Lato';
 font-style: normal;
 font-weight: 700;
@@ -485,7 +442,6 @@ top: 820px;
 left: 515px;
 width: 150px;
 height: 30px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -497,10 +453,8 @@ justify-content: center;
 align-items: center;
 padding: 17px 52px;
 gap: 10px;
-
 width: 200px;
 height: 64px;
-
 background: #FFFFFF;
 border: 1px solid #007560;
 border-radius: 15px;
@@ -520,28 +474,20 @@ border: 4px solid #F3EBC4;
 border-radius: 276px;
 }
 .form1{
-    position: absolute;
-    bottom: 210px;
+position: absolute;
+bottom: 210px;
 left: 490px;
 box-sizing: border-box;
-
-/* Auto layout */
-
 display: flex;
 flex-direction: row;
 align-items: center;
 padding: 14px 24px;
 gap: 10px;
-
 width: 236px;
 height: 56px;
-
 background: #FFFFFF;
 border: 1px solid #DCDCDC;
 border-radius: 15px;
-
-/* Inside auto layout */
-
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -552,28 +498,20 @@ font-size: 16px;
 line-height: 28px;
 }
 .form2{
-    position: absolute;
-    bottom: 90px;
+position: absolute;
+bottom: 90px;
 left: 490px;
-    box-sizing: border-box;
-
-/* Auto layout */
-
+box-sizing: border-box;
 display: flex;
 flex-direction: row;
 align-items: center;
 padding: 14px 24px;
 gap: 10px;
-
 width: 496px;
 height: 56px;
-
 background: #FFFFFF;
 border: 1px solid #DCDCDC;
 border-radius: 15px;
-
-/* Inside auto layout */
-
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -582,17 +520,13 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 28px;
-
-
-
 }
 #h1form{
-    position: absolute;
-    bottom: 310px;
+position: absolute;
+bottom: 310px;
 left: 490px;
-    width: 442px;
+width: 442px;
 height: 64px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
@@ -627,8 +561,7 @@ line-height: 64px;
     height: 56px;
     
     background: #007560;
-    border-radius: 15px;
-    
+    border-radius: 15px;  
 }
 #bottom{
     position: relative;
@@ -638,10 +571,8 @@ line-height: 64px;
     margin-top: 150px;
 }
 #bottom img{
-    
-    width: 1230px;
+    width: 1225px;
     height: 501px;
-
 }
 .materialicons1{
     position: absolute;
@@ -653,20 +584,12 @@ line-height: 64px;
     margin-left: 550px;
     width: 250px;
 height: 32px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 32px;
-/* identical to box height, or 160% */
-
-
 color: #000000;
-
-
-/* Inside auto layout */
-
 flex: none;
 order: 1;
 flex-grow: 0;
