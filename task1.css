@@ -1,4 +1,15 @@
-
+a:link{
+    color: #007560;
+    cursor: pointer;
+}
+a:hover{
+    color: peru;
+    cursor: pointer;
+}
+a:active{
+    color: whitesmoke;
+    cursor: pointer;
+}
 #Header1{
     position: relative;
 width: 88px;
